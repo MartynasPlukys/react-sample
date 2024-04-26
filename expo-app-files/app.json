@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "expo-app-files",
-    "slug": "expo-app-files",
+    "slug": "samplecode",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -21,10 +21,17 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.martynas.plukys.samplecode"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "5a1ac4e6-1475-492c-9cb8-55604011ff8e"
+      }
+    },
+    "owner": "martynas.plukys"
   }
 }
